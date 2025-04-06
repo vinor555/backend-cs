@@ -1,0 +1,226 @@
+{
+	"info": {
+		"_postman_id": "5c07d44d-0e6e-420c-a75f-a39b6d7b67c1",
+		"name": "CS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24366249"
+	},
+	"item": [
+		{
+			"name": "GET skins",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/skins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"skins"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET skins filter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/skins?crates=Kilowatt Case",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"skins"
+					],
+					"query": [
+						{
+							"key": "crates",
+							"value": "Kilowatt Case"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET agents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/agents",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"agents"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET crates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/crates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"crates"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET keys",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "admin123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/keys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"keys"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET export skins",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/export?type=skins",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"export"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "skins"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET export agents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/export?type=agents",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"export"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "agents"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET export crates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/export?type=crates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"export"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "crates"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET export keys",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/export?type=keys",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"export"
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "keys"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
