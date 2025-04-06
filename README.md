@@ -8,7 +8,7 @@ Esta aplicación es una API backend que extrae datos de la API externa de CSGO, 
 
 ## Uso
 
-1. Clona el repositorio.
+1. Clona el repositorio `https://github.com/vinor555/backend-cs.git`.
 2. Configura las variables de entorno en el archivo `.env` (esto es opcional, ya que docker-compose inyecta las variables).
 3. Levanta la aplicación con Docker Compose:
    ```bash
